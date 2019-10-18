@@ -38,19 +38,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: cpp-library-curl02.exe
+all: 04cpp-library-curl02.exe
 
 # Tool invocations
-cpp-library-curl02.exe: $(OBJS) $(USER_OBJS)
+04cpp-library-curl02.exe: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cygwin C++ Linker'
-	g++  -o "cpp-library-curl02.exe" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "04cpp-library-curl02.exe" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(CPP_DEPS)$(C_DEPS) cpp-library-curl02.exe
+	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(CPP_DEPS)$(C_DEPS) 04cpp-library-curl02.exe
 	-@echo ' '
 
 .PHONY: all clean dependents

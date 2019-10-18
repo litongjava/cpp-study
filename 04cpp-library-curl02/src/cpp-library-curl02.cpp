@@ -16,6 +16,7 @@ int main() {
   if (curl) {
     curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
     curl_easy_setopt(curl, CURLOPT_URL, dst_url);
+    curl_easy_setopt(curl,CURLOPT_HEADER,1);
   }
 
   //÷¥––«Î«Û
