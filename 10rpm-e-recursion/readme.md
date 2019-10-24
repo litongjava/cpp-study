@@ -21,7 +21,7 @@ error: package php72w-devel-7.2.22-1.w7.x86_64 is not installed
 ```
 
 1.执行命令  
-2.如果执行失败,使用  is needed by (installed)  拆分,前后各有空格
+2.如果执行失败,使用  is needed by (installed)  拆分,前后各有空格   
 3.进行移除
 
 后来发现网上有个脚本,工程宣告报废
