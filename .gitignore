@@ -130,3 +130,6 @@ querydsl/
 
 *.exe
 *.out
+
+cmake-build-debug/
+cmake-build-debug-mingw/

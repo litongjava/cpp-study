@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/clione_helloworld.dir/main.cpp.o  -o clione_helloworld 
