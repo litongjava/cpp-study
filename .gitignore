@@ -127,3 +127,5 @@ checkouts/
 querydsl/
 
 .DS_Store
+
+*.exe
