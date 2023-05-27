@@ -1,1 +1,5 @@
-C和C++ 学习测试案例
+cpp-study
+
+c和c++ 学习代码
+
+c and c++ study code
