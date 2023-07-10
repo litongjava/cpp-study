@@ -134,3 +134,9 @@ querydsl/
 cmake-build-debug/
 cmake-build-debug-mingw/
 *
+!*/
+!*.*
+.idea/
+cmake-build-debug/
+
+
